@@ -1,0 +1,1 @@
+curl -s https://api.github.com/orgs/devfort/repos?per_page=200 | ruby -rubygems -e \'require "json"; JSON.load(STDIN.read).each { |repo| File.open("repos.txt", "a") {|file| file.write(repo["ssh_url"]+n)}}'

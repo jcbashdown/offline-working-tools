@@ -1,0 +1,17 @@
+git@github.com:devfort/vmsetup.git
+git@github.com:devfort/hostsetup.git
+git@github.com:devfort/prepdata.git
+git@github.com:devfort/npm-mirror-cookbook.git
+git@github.com:devfort/gem-mirror-cookbook.git
+git@github.com:devfort/cpan-mirror-cookbook.git
+git@github.com:devfort/boxes.git
+git@github.com:devfort/pypi-mirror-cookbook.git
+git@github.com:devfort/apt-mirror-cookbook.git
+git@github.com:devfort/source-mirror-cookbook.git
+git@github.com:devfort/mirror-core-cookbook.git
+git@github.com:devfort/content-mirror-cookbook.git
+git@github.com:devfort/file-mirror-cookbook.git
+git@github.com:devfort/jquery-equal-height.git
+git@github.com:devfort/jquery-projector.git
+git@github.com:devfort/django-cape.git
+git@github.com:devfort/shire.git
