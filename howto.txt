@@ -1,0 +1,34 @@
+Files:
+
+  wget -N --no-check-certificate %{args} "%{url}"
+
+  -O %{file name} - to rename output file
+
+Websites:
+
+  rsync: 'rsync -aP --delete %{args} %{remote} %{target}',
+  wget: 'wget -m -k -p -nH -np %{args} %{remote}',
+
+  -l %{number} for recursion depth
+
+Ruby:
+
+  gem mirror
+
+Node
+
+  ~/node_modules/registry-static/bin/registry-static -d my.registry.com -o ~/npm_registry
+
+Python:
+
+  Bandersnatch?
+
+Apt:
+
+  apt-mirror?
+
+Go?:
+
+=====
+
+what is berkshelp?
